@@ -28,8 +28,8 @@ public class Wro4jFacet extends BaseFacet {
 												    " </group>\n"+
 												    "</groups>";
 	
-	private static final String WRO_PROPERTIES_CONTENTS = "preProcessors=cssImport,semicolonAppender,lessCss\n"+	
-			"postProcessors=cssMinJawr,jsMin";
+	private static final String WRO_PROPERTIES_CONTENTS = "preProcessors=cssImport,semicolonAppender\n"+	
+			"postProcessors=lessCss,cssMinJawr,jsMin";
 	
 	
 	public boolean install() {
